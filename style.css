@@ -2,13 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/********************** Common body style *****************************/
+
 body{
 font-family: 'Poppins', sans-serif;
 margin: 0;
 padding: 0;
 }
 
-
+/********************** Top banner style *****************************/
 
 .top-banner{
  width: 100%;
@@ -54,6 +56,20 @@ padding: 10px 24px;
 width: 100%;
 }
 
+/********************** Transiton & Transform style *****************************/
+
+.banner-image img:hover {
+  transform: rotateY(180deg);
+  transition: transform 2s;
+}
+
+.top-banner:hover .button a{
+  background-color: aquamarine;
+  transition: background-color 2s ;
+}
+
+/********************** Player List style *****************************/
+
 .player-list{ 
  margin: 70px auto;
  padding: 0 10%;
@@ -89,8 +105,11 @@ padding: 15px;
  font-weight: 400;
  color: #6C6C6C;
  font-size: 16px;
+ text-align: justify;
 
 }
+
+/********************** Match Stats style *****************************/
 
 .match-stats{
  margin: 50px 20%;
@@ -112,6 +131,8 @@ td, th {
   text-align: center;
   padding: 20px;
 }
+
+/********************** Match Schedule style *****************************/
 
 .shedule{
  margin: 70px 15%;
@@ -144,6 +165,8 @@ td, th {
  height: 50px;
 }
 
+/********************** Footer style *****************************/
+
 .football-banner{
  display: flex;
  justify-content: center;
@@ -169,6 +192,14 @@ color: gray;
 .copy-right{
  text-align: center;
 }
+
+
+/************************************************************************
+
+                     Media Quries For Mobile device style 
+
+****************************************************************************/
+
 
 @media screen and (max-width:688px) {
 
@@ -221,6 +252,12 @@ color: gray;
 
 }
 
+/***************************************************************************
+
+                     Media Quries For Tablet (Medium) device style 
+
+****************************************************************************/
+
 @media only screen and (min-width:688px) and (max-width:992px) {
 
 .container{
@@ -265,3 +302,11 @@ color: gray;
 }
 
 }
+
+
+
+/************************************************************************
+
+                               AllAH HAFEZ
+
+****************************************************************************/
