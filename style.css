@@ -1,0 +1,267 @@
+/************** Font Style Link *********************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+
+.top-banner{
+ width: 100%;
+ background-color: #2D25A0;
+ padding: 40px 0;
+
+}
+.header-container{
+ display: flex;
+ padding: 40px 0;
+}
+
+.container{
+ max-width: 1160px;
+ margin: auto;
+}
+
+.banner-title{
+ flex: 1;
+}
+
+.banner-image{
+ flex: 1;
+}
+
+.banner-title h1{
+ color: #FFFFFF;
+font-size: 64px;
+margin-right: 48px;
+}
+
+
+.button a{
+ text-decoration: none;
+ color: #FFFFFF;
+ background-color: #E02C6D;
+font-size: 16px;
+padding: 10px 24px;
+
+}
+
+.banner-image img{
+width: 100%;
+}
+
+.player-list{ 
+ margin: 70px auto;
+ padding: 0 10%;
+}
+
+.players{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-column-gap: 30px;
+ 
+}
+.player{
+
+width: 280px;
+margin-bottom: 20px;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.player-img img{
+ width: 250px;
+height: 200px;
+padding: 15px;
+
+}
+.player-info h3, .player-details{
+ width: 250px;
+ padding-left: 15px;
+}
+
+.player-details p{
+ font-weight: 400;
+ color: #6C6C6C;
+ font-size: 16px;
+
+}
+
+.match-stats{
+ margin: 50px 20%;
+}
+.match-stats h1{
+ text-align: center;
+ color:grey;
+ font-size: 50px;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: center;
+  padding: 20px;
+}
+
+.shedule{
+ margin: 70px 15%;
+}
+
+.match-shedule{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ 
+}
+
+.match-shedule-title{
+  text-align: center;
+ color:grey;
+ font-size: 50px;
+}
+
+.matches{
+ border: 1px solid whitesmoke;
+ /* margin: auto; */
+ margin: 20px;
+ width: 200px;
+ padding: 18px;
+ text-align: center;
+ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15)
+}
+
+.match-img img{
+ height: 50px;
+}
+
+.football-banner{
+ display: flex;
+ justify-content: center;
+ 
+}
+
+.football-logo img{
+ height: 110px;
+ width: 420px;
+}
+
+.social-icon{
+ display: flex;
+ justify-content: center;
+}
+
+.social-icon .icon{
+ font-size: 30px;
+padding: 0 10px;
+color: gray;
+}
+
+.copy-right{
+ text-align: center;
+}
+
+@media screen and (max-width:688px) {
+
+.container{
+ max-width: none ;
+ margin: none;
+}
+
+.header-container{
+  display: block;
+  margin: 30px;
+ }
+
+.top-banner h1, a{
+  font-size: 50px;
+ }
+
+ .banner-image img{
+  margin-top: 70px;
+ }
+
+ .players{
+ display: grid;
+ grid-template-columns: repeat(1, 1fr);
+ }
+
+.match-stats{
+ margin:auto ;
+ padding: 20px;
+}
+
+.shedule{
+ margin: auto;
+}
+
+.footer{
+ margin: 50px;
+}
+.football-logo img{
+height: auto;
+width: 200px;
+
+}
+
+.social-icon .icon {
+ font-size: 20px;
+padding: 0 10px;
+color: gray;
+}
+
+}
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+.container{
+ max-width: none ;
+ margin: none;
+}
+.top-banner h1, a{
+  font-size: 40px;
+  margin-left: 20px;
+ }
+
+ 
+ .players{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ margin: auto;
+ 
+ }
+
+.match-stats{
+ margin:auto ;
+ padding: 20px;
+}
+
+.shedule{
+ margin: auto;
+}
+
+.footer{
+ margin: 50px;
+}
+.football-logo img{
+height: auto;
+width: 300px;
+
+}
+
+.social-icon .icon {
+ font-size: 20px;
+padding: 0 10px;
+color: gray;
+}
+
+}
